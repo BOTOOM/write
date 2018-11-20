@@ -160,11 +160,19 @@ var logoAnimation = function() {
 
   var dotJSDown = anime({
     targets: '#dot-js',
+    transform: ['translate(0 -304)', 'translate(0 0)'],
+    duration: 500,
+    elasticity: 600,
+    autoplay: false
     
   });
 
   var dotJSUp = anime({
-    
+    targets: '#dot-js',
+    transform: ['translate(0 0) scale(1 3)', 'translate(0 -352) scale(1 1)'],
+    duration: 800,
+    easing: 'easeOutCirc',
+    complete: dotJSDown.play
     
   });
 
