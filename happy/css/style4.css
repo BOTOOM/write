@@ -1,7 +1,9 @@
 body{
-	background: #222 url(../images/broken_noise.jpg) repeat top left;
+	background: #222 url(../images/344.jpg) repeat;
 	font-family: 'Prociono', Georgia, serif;
 	color: #fff;
+	background-size: cover;
+	background-position: center center;
 }
 h1{
 	color: #f0f0f0;
@@ -28,21 +30,21 @@ h1{
 	height: 120px;
 	line-height: 120px;
 	font-size: 120px;
-	border: 15px solid rgba(0,0,0,0.5);
+	border: 15px solid rgba(214,79,68,0.5);
 	-webkit-perspective: 400;
 	-webkit-box-shadow: 1px 1px 4px #000;
 	-moz-box-shadow: 1px 1px 4px #000;
 	box-shadow: 1px 1px 4px #000;
 }
 .letter-container h2 .tbg{
-	background: #121212;
+	background: #E84A2A;
 	position: absolute;
-	color: #f2c200;
+	color: #D826C0;
 	width: 100%;
 	height: 100%;
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	-webkit-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
 }
 .letter-container h2 .tdown{
 	height: 50%;
@@ -51,10 +53,10 @@ h1{
 	position: absolute;
 	overflow: hidden;
 	z-index: 1;
-	background: #151515;
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
+	background: #E84A2A;
+	-webkit-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	-moz-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
@@ -77,9 +79,9 @@ h1{
 	-o-transition: all 0.3s linear;
 	-ms-transition: all 0.3s linear;
 	transition: all 0.3s linear;
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
+	-webkit-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	-moz-box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
+	box-shadow: 0px 1px 3px rgba(214,79,68,0.9);
 }
 .letter-container h2 .tup .tfront,
 .letter-container h2 .tup .tback{
@@ -89,11 +91,11 @@ h1{
 	top: 0px;
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
-	background: #151515;
+	background: ##E84A2A;
 }
 .letter-container h2 .tup .tback{
-	background: #121212;
-	color: #f2c200;
+	background: #E84A2A;
+	color: #E84A2A;
 }
 .csstransforms3d .letter-container h2 .tup .tback{
 	-webkit-transform: rotateX(-180deg); 
